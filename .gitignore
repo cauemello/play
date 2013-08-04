@@ -4,6 +4,7 @@ project/target
 target
 .target
 tmp
+.cache
 .history
 dist
 /.idea
