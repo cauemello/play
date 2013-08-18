@@ -8,6 +8,10 @@ import models.Task
 
 object Application extends Controller {
 
+  def home = Action {
+    Ok(views.html.home(None))
+  }
+  
   def index = Action {
     Redirect(routes.Application.tasks)
   }

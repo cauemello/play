@@ -5,7 +5,7 @@
 CREATE SEQUENCE girl_id_seq;
 CREATE TABLE girl (
     id integer NOT NULL DEFAULT nextval('girl_id_seq'),
-    phone varchar(20)
+    phone varchar(20),
     name varchar(255)
 );
  
